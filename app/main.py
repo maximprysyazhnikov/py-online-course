@@ -35,3 +35,12 @@ class OnlineCourse:
             description=course_dict["description"],
             weeks=weeks
         )
+
+# Example usage
+course_dict = {
+    "name": "Python Core",
+    "description": (
+        "After this course you will know everything about Python"
+    ),
+    "days": 12,
+}
