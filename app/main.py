@@ -1,4 +1,5 @@
 class OnlineCourse:
+
     def __init__(self, name: str, description: str, weeks: int) -> None:
         self.name = name
         self.description = description
@@ -35,12 +36,3 @@ class OnlineCourse:
             description=course_dict["description"],
             weeks=weeks
         )
-
-# Example usage
-course_dict = {
-    "name": "Python Core",
-    "description": (
-        "After this course you will know everything about Python"
-    ),
-    "days": 12,
-}
